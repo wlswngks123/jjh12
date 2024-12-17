@@ -1,6 +1,8 @@
 import streamlit as st  # Streamlit 라이브러리를 불러옴
 from langchain_openai import ChatOpenAI
+
 openai_api_key = st.secrets["OPENAI_API_KEY"]
+
 # 페이지 기본 설정
 st.set_page_config(
     page_title="AI 기반 고객 응대 서비스",  # 브라우저 탭에 표시할 페이지 제목
