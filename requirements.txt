@@ -1,10 +1,10 @@
-langchain==0.3.7
-streamlit==1.39.0
-langchain-community==0.3.5
-openai==1.54.1
-langchain-openai==0.2.6
-streamlit-chat==0.1.1
-pypdf==5.1.0
+langchain
+streamlit
+langchain-community
+openai
+langchain-openai
+streamlit-chat
+pypdf
 faiss-cpu
 torch==2.5.1
 torchvision==0.20.1
