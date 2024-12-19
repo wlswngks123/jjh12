@@ -1,7 +1,7 @@
 import streamlit as st  # Streamlit 라이브러리를 불러옴
 from langchain_openai import ChatOpenAI
 
-openai_api_key = st.secrets["OPENAI_API_KEY"]
+api_key = st.secrets["OPENAI_API_KEY"]
 
 # OpenAI 라이브러리에 API 키 설정
 openai.api_key = api_key
